@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="module" src="js/main.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>CathMe!</title>
+</head>
+<body>
+    <audio id="pressGreen" src="audio/button.mp3"></audio>
+    <audio id="pressRed" src="audio/glass-broken.mp3"></audio>
+    <audio id="backgroundSound" src="audio/password-infinity.mp3" loop></audio>
+    <audio id="playSound" src="audio/fire-cyberpunk-sport-music-111884.mp3" loop></audio>
+
+
+    <div class="text">
+        <div>Punkty:<p id="points"> 0 </p></div>
+        <div>Czas:<p id="gameTime">60 </p></div>
+    </div>
+    <div id="container">
+        <div id="dot"></div>
+    </div>
+    <div class="fixedBlock" id = "startingPage"></div>
+    <div class="fixedBlock" id = "site"></div>
+
+    <div class="submit" id="start">
+        Rozpocznij
+    </div>
+    <div class="submit" id="ok">
+        Dalej
+    </div>
+
+    
+    
+</body>
+</html>

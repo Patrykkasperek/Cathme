@@ -1,0 +1,125 @@
+body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: 'Unbounded', cursive;
+}
+#container{
+    width: 320px;
+    height: 485px;
+    background-color: rgb(0, 60, 155);
+}
+.text {
+    font-size: 20px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.text div{
+    background-color: rgb(52, 131, 255);
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 100%;
+    height: 60px;
+}
+
+.text p{
+    margin:0 auto
+}
+
+#dot{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #fff;
+}
+
+.green{
+    background-color:green;
+}
+.red{
+    background-color: red;
+}
+.blue{
+
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.fixedBlock{
+    font-size: 90%;
+    font-weight: bold;
+    text-align: justify;
+    color: rgb(1, 12, 29);
+    padding: 20px;
+    display: flex;
+    position: fixed;
+    top:0px;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(78, 145, 254);
+    width: 240px;
+    height: 440px;
+    margin-top: 15px;
+}
+
+#startingPage {
+    width:280px;
+    height:520px;
+    margin: 0 auto;
+}
+
+.fixedBlock h1{
+    text-align: center;
+}
+
+.fixedBlock table tr:nth-child(1){
+    color:yellow;
+}
+.fixedBlock table tr:nth-child(2){
+    color:green;
+}
+.fixedBlock table tr:nth-child(3){
+    color:blue;
+}
+.fixedBlock table tr:nth-child(4){
+    color:red;
+}
+
+.submit{
+    margin-top: 475px;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(1, 12, 29);
+    width: 280px;;
+    height: 60px;
+    background-color: rgb(52, 131, 255);
+    transition: 0.5s;
+}
+
+.submit:hover{
+    background-color: rgb(1, 12, 29);
+    color: #fff;
+}
+#dot,
+#site,
+#ok{
+    display:none;
+}
+
+.ready{
+    margin-top: 150px;
+}
+
+#start {
+    margin: 140px;
+}
