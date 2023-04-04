@@ -28,7 +28,7 @@ const lvl4 = () => {
  *  zgłębić temat let i const. (done)
  *  ogarnąć ES modules. (done)
  *  delegacja zdarzeń
- *  Ogarnąć do końca klasy w JS
+ *  Ogarnąć do końca klasy w JS (done)
  *  asynchroniczny JS (async/await/promise)
  *  metody tablic i obiektów. (Map, forEach)
  *  Git/Github
