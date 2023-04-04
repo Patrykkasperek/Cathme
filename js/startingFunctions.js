@@ -4,7 +4,7 @@ import { lvl1 } from "./main.js";
 //////////// Game rules//////////////////
 
 export const firstSite = () => {
-    site.innerHTML = "<br><br><br><br><br><br><h1>Cath Me!</h1>" +
+    site.innerHTML = "<br><br><br><br><br><br><h1>Catch Me!</h1>" +
         "<p>To gra zręcznościowa polegająca na złapaniu jak najszybciej kolorowej kropki pojawiającej się, na ekranie. Przejdź dalej aby przeczytać zasady gry.</p>";
     ok.addEventListener('click', rule);
 };
