@@ -20,27 +20,3 @@ const lvl4 = () => {
 }
 
 
-// PRACA DOMOWA
-/**
- * BEFORE REACT LEARNING:
- *  Ogrnąć jakiś preprocesor css (SASS/LESS, SCSS) Udemy
- *  Dokładnie ogarnąć funkcje strzałkowe => (){} (done)
- *  zgłębić temat let i const. (done)
- *  ogarnąć ES modules. (done)
- *  delegacja zdarzeń
- *  Ogarnąć do końca klasy w JS (done)
- *  asynchroniczny JS (async/await/promise)
- *  metody tablic i obiektów. (Map, forEach)
- *  Git/Github
- *  REST API
- * 
- * 
- * 
- * PRACA DOMOWA WG wahy.
- * OPTYMALIZACJA KODU lvl do jednej funkcji (done)
- * Event Loop (film youtube)
- * rewrite to english (done)
- * template literals (stringi bez +) (done)
- * ternary operator (skrócony if else) (done)
- * przepisz skrypt do reacta i odpal npm run start
- */
